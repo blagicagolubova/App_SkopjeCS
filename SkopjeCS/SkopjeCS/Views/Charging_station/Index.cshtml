@@ -1,0 +1,62 @@
+﻿@model IEnumerable<SkopjeCS.Models.Charging_station>
+
+@{
+    ViewBag.Title = "Tabelaren prikaz";
+}
+
+<h2>Stanici za polnenje na elektricni avtomobili</h2>
+
+<table class="table" id="tabela">
+    <thead>
+        <tr>
+            <th>
+                Opstina
+            </th>
+            <th>
+                Adresa
+            </th>
+            <th>
+                Operator
+            </th>
+            <th>
+                Tip
+            </th>
+
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+
+                <td>
+                    @Html.DisplayFor(modelItem => item.municipality)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.operatorCS)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.tip)
+                </td>
+
+                <td>
+                    @Html.ActionLink("Detali", "Detali", new { id = item.id }, new { @class = "btn btn-primary" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<!--
+@section scripts{
+    <script>
+
+            $("#tabela").DataTable();
+
+    </script>
+}-->

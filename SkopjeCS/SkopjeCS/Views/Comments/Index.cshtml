@@ -1,0 +1,31 @@
+﻿@model IEnumerable<SkopjeCS.Models.Comments>
+
+@{
+    ViewBag.Title = "IComments";
+}
+
+<h2>Komentari/Comments</h2>
+
+<p>
+    @Html.ActionLink("Dodadi komentar/Add comment", "Create", null, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.komentar)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.komentar)
+        </td>
+        <td>
+           
+        </td>
+    </tr>
+}
+
+</table>

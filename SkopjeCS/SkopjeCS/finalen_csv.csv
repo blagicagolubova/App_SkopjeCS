@@ -1,0 +1,13 @@
+@id,@lon,@lat,amenity,fee,opening_hours,operator,socket:type2:output,tip,address,municipality
+6083076481,21.4275923,41.9921300,charging_station,no,24/7,EVN,22kW,Wallbe Pro,Sv. Kiril i Metodij 18  Skopje 1000,Centar
+6083093014,21.4651780,41.9867146,charging_station,no,24/7,EVN,22kW,Wallbe Pro,Boulevar Jane Sandanski 35  Skopje 1000,Aerodrom
+6083095650,21.4322161,41.9948629,charging_station,no,24/7,EVN,22kW,Wallbe Pro,bul. 11 Oktomvri br. 9 Skopje 1000 MK,Centar
+6083122260,21.4180965,42.0053710,charging_station,no,24/7,EVN,22kW,Wallbe Pro,Albert Einstein 83  Skopje 1000,Centar
+6083138846,21.4035307,42.0136336,charging_station,no,24/7,EVN,22kW,Wallbe Pro Plus,Skupi 5a  Skopje 1000,Centar
+6083264835,21.4269103,42.0061889,charging_station,no,24/7,EVN,22kW,Wallbe Pro,1732 br.4  Skopje 1000,Centar
+6089900439,21.3632349,42.0091302,charging_station,no,24/7,EVN,22kW,Wallbe Pro Plus,Partizanski Odredi Skopje 1000,Gjorche Petrov
+6089906066,21.3724961,42.0067912,charging_station,no,24/7,EVN,22kW,Wallbe Pro Plus,Delfina Square Mramorec Nr 8a MK Skopje 1000,Karposh
+6089907922,21.4119700,41.9947319,charging_station,no,24/7,EVN,22kW,Wallbe Pro Plus,Naroden Front Skopje 1000,Centar
+6089911198,21.4192586,42.0048405,charging_station,no,24/7,EVN,22kW,Wallbe Pro,Bulevar Ilinden 82 Assembly of the City of Skopje,Centar
+6089917927,21.4775368,41.9887319,charging_station,no,24/7,EVN,22kW,Wallbe Pro Plus,Double Tree By Hilton Kej na Vardar Parking Hotel MK Skopje 1000,Aerodrom
+6089919955,21.4870891,42.0070408,charging_station,no,24/7,EVN,22kW,Wallbe Pro Plus,Edvard Kardelj/Aleksandar Makedonski Madzhari,Gazi Baba
